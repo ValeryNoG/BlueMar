@@ -7,9 +7,7 @@ import json
 
 """
 This file demonstrates a simple Airflow DAG that triggers a sync using the Airbyte API on a connection that 
-is running in Airbyte Cloud, and that then waits for that sync to succeed.
-The Airbyte API endpoints that are demonstrated are "sync" and "jobs" (status).
-For more information, consult the Airbyte API at https://reference.airbyte.com/reference/start
+is running in Airbyte Cloud
 """
 AIRBYTE_CONNECTION_ID = Variable.get("MY_EXAMPLE_CONNECTION_ID")
 API_KEY = f'Bearer {Variable.get("CLOUD_API_TOKEN")}'

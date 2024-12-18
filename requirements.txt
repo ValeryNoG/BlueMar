@@ -2,3 +2,5 @@
 astronomer-cosmos
 apache-airflow-providers-amazon
 apache-airflow-providers-snowflake
+apache-airflow-providers-airbyte
+apache-airflow-providers-snowflake>=5.7.0
